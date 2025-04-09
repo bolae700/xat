@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sadheart4ever - xat Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <!-- Profile Header Section -->
+            <div class="profile-header">
+                <div class="avatar-container">
+                    <img src="https://i.pravatar.cc/200?img=7" alt="Profile" class="main-avatar">
+                    <span class="online-dot"></span>
+                    <div class="badge premium"><i class="fas fa-crown"></i></div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="username">sadheart4ever</h1>
+                    <div class="status-box">
+                        <span class="status-text">❤️ Single but not available ❤️</span>
+                        <div class="mood-container">
+                            <i class="fas fa-heartbeat mood-icon"></i>
+                            <span class="mood-text">Feeling Romantic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile Content Section -->
+            <div class="profile-content">
+                <!-- Statistics Grid -->
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">1.2M</div>
+                        <div class="stat-title">Views</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">24.7K</div>
+                        <div class="stat-title">Fans</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">1,340</div>
+                        <div class="stat-title">Friends</div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button class="btn chat-btn pulse">
+                        <i class="fas fa-comment-medical"></i> Send Message
+                    </button>
+                    <button class="btn gift-btn">
+                        <i class="fas fa-gift"></i> Send Gift
+                    </button>
+                </div>
+
+                <!-- Additional Info -->
+                <div class="info-sections">
+                    <div class="info-box">
+                        <h3><i class="fas fa-user-clock"></i> Last Active</h3>
+                        <p>2 minutes ago</p>
+                    </div>
+                    <div class="info-box">
+                        <h3><i class="fas fa-heart"></i> Relationship Status</h3>
+                        <p>It's complicated</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Decorative Elements -->
+            <div class="decorative-hearts">
+                <div class="heart h1"></div>
+                <div class="heart h2"></div>
+                <div class="heart h3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

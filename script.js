@@ -36,4 +36,17 @@ document.addEventListener('DOMContentLoaded', () => {
             currentStatus = (currentStatus + 1) % statusMessages.length;
         }, 500);
     }, 5000);
+    // أضف في نهاية script.js
+// YouTube Modal Control
+const youtubeBtn = document.querySelector('.youtube-btn');
+const youtubeModal = document.querySelector('.youtube-modal');
+
+youtubeBtn.addEventListener('click', () => {
+    youtubeModal.style.display = 'flex';
+});
+
+youtubeModal.addEventListener('click', (e) => {
+    if(e.target === youtubeModal) {
+        youtubeModal.style.display = 'none';
+    }
 });
